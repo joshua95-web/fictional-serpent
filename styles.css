@@ -48,7 +48,6 @@ flex-direction: column;
 
 .herotext {
     font-size: x-large;
-    border: solid green;
     color: #F9FAF8;
     display: flex;
     justify-content: center;
@@ -64,7 +63,6 @@ flex-direction: column;
 .logo {
     font-size: small;
     color: #F9FAF8;
-    border: solid red;
     display: flex;
     margin-left: 400px;
 }
@@ -75,4 +73,5 @@ img {
     width: 532px;
     display: flex;
     margin-right: 400px;
+    border-radius: 30px;
 }
