@@ -2,15 +2,30 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+
+.signupbutton {
+    height: 50px;
+    width: 150px;
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 header {
-    border: solid orange;
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
 }
 
 .header-left {
-border: solid purple;
 display: flex;
 flex-direction: column;
 }
@@ -18,7 +33,6 @@ flex-direction: column;
 .header-links {
     font-size: 18px;
     color: #E5E7EB;
-    border: solid yellow;
     display: flex;
     justify-content: space-around;
     margin-left: 200px;
@@ -26,7 +40,6 @@ flex-direction: column;
 }
 
 .header-right {
-    border: solid purple;
     display: flex;
     flex-direction: column;
 }
