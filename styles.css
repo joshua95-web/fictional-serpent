@@ -5,7 +5,7 @@ body {
 header {
     border: solid orange;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     background-color: #1F2937;
 }
 
@@ -15,20 +15,32 @@ display: flex;
 flex-direction: column;
 }
 
+.header-right {
+    border: solid purple;
+    display: flex;
+    flex-direction: column;
+}
+
 .herotext {
+    font-size: x-large;
     border: solid green;
     color: #F9FAF8;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-left: 300px;
+}
 
+h1 {
+    margin-bottom: -30px;
 }
 
 .logo {
+    font-size: small;
     color: #F9FAF8;
     border: solid red;
     display: flex;
-    margin-left: 10px;
+    margin-left: 300px;
 }
 
 
