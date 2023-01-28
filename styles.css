@@ -5,17 +5,19 @@ body {
 header {
     display: flex;
     justify-content: space-between;
+    background-color: #1F2937;
 }
 
 .herotext {
-    font-family: rob
+    color: #F9FAF8;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-color: #1F2937
+
 }
 
 .logo {
+    color: #F9FAF8;
     border: solid red;
     display: flex;
     margin-left: 10px;
