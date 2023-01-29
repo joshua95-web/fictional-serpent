@@ -37,8 +37,9 @@ flex-direction: column;
     color: #E5E7EB;
     display: flex;
     justify-content: space-around;
-    margin-left: 200px;
-    margin-right: 50px;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
     margin-bottom: 50px;
 }
 
