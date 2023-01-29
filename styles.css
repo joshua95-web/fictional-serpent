@@ -139,6 +139,8 @@ img {
 }
 
 .captions {
+    font-size: 18px;
     border: solid green;
     display: flex;
+    gap: 150px;
 }
