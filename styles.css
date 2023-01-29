@@ -213,3 +213,17 @@ img {
     justify-content: center;
     align-items: center;
 }
+
+.footer {
+    font-size: 22px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left:0px;
+    bottom:0px;
+    height:100px;
+    width:100%;
+}
