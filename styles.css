@@ -90,8 +90,49 @@ img {
 .middle-section {
     font-family: 'Roboto', sans-serif;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     color: #1F2937;
     font-size: 36px;
+
+}
+
+.box1 {
+    float: left;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 50px;
+}
+
+.box2 {
+    float: left;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 50px;
+}
+
+.box3 {
+    float: right;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 50px;
+}
+
+.box4 {
+    float: right;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 50px;
+}
+
+.boxes-container {
+    border: solid red;
+    direction: flex;
+    flex-direction: column;
+    
 
 }
