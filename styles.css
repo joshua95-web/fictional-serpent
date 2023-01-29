@@ -176,3 +176,12 @@ img {
     display: flex;
     justify-content: center;
 }
+
+.call-to-action {
+    margin: 100px;
+    padding: 50px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+
+}
