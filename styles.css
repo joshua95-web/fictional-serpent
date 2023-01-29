@@ -134,13 +134,23 @@ img {
 }
 
 .boxes-container {
-    border: solid red;
-    direction: flex;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
 }
 
 .captions {
     font-size: 18px;
-    border: solid green;
     display: flex;
+    justify-content: center;
     gap: 150px;
+    margin-top: -30px;
+    margin-bottom: 100px;
+}
+
+.boxes-and-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    justify-content: center;
 }
