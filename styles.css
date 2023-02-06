@@ -193,7 +193,10 @@ img {
 
 .calltoactiontext {
     margin-left: 150px;
-    line-height: 10pt;
+    line-height: 30px;
+    display: flex;
+    width: 100px;
+    gap: 50px;
 }
 
 .signupbutton2 {
